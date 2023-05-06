@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flower = "==1.2.0"
+celery = "==5.2.7"
+redis = "==4.5.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
